@@ -1,0 +1,43 @@
+{
+  "name": "ninja-directives",
+  "description": "It contains reusable components such as facility filter, city filter, user filter etc.",
+  "main": "index.js",
+  "authors": [
+    "Ankit Sorathiya"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "directives"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.2.1",
+    "angular": "1.6.4",
+    "bootstrap": "3.3.7",
+    "AngularJS-Toaster": "2.1.0",
+    "lodash": "4.15.0",
+    "font-awesome": "4.7.0",
+    "ngstorage": "0.3.11",
+    "angular-ui-select": "^0.19.6",
+    "angular-bootstrap": "^2.5.0",
+    "angular-sanitize": "1.6.4",
+    "bootstrap-social": "^5.1.1",
+    "angular-animate": "1.6.4",
+    "angular-material": "^1.1.4",
+    "angular-touch": "1.6.4",
+    "angular-material-icons": "^0.7.1",
+    "material-steppers": "^2.0.0"
+  },
+  "resolutions": {
+    "angular": "1.6.4",
+    "angular-animate": "1.6.4"
+  }
+}

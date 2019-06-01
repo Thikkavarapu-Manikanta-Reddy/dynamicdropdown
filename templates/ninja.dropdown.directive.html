@@ -1,0 +1,12 @@
+<h4>directive controller scope value={{check.value}}</h4>
+<ui-select ng-model="selected.value" on-select="onSelected($item)">
+    <ui-select-match  placeholder="Select a Person Name">
+        <span ng-bind="$select.selected[type123]"></span>
+    </ui-select-match>
+<!--     <ui-select-choices repeat="item in (itemArray | filter: $select.search)"> -->
+	<ui-select-choices refresh="search($select.search)"  repeat="item in itemArray">
+        <span ng-bind="item[type123]"></span>
+    </ui-select-choices>
+</ui-select><br><br>
+
+<h4 ng-if="user">No such user</h4>
